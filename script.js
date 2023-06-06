@@ -14,13 +14,19 @@
     Com os resultados guardados das partidas aplicar
     os paramentros para decidir o jogador ganhador.*/
 
+function playerSelection() {
+    return prompt("Rock, Paper or Scissors?").toLowerCase();
+}
+    
 function getComputerChoice() {
     const shapes = ["rock", "paper", "scissors"]; 
     const random = Math.floor(Math.random() * shapes.length);
     return shapes[random];
 }
-  
-function playerSelection() {
-    return prompt("Rock, Paper or Scissors?").toLowerCase();
+
+function round(getComputerChoice, playerSelection) {
+    if 
 }
-    
+rock > scissors 
+scissors > paper
+paper > rock 
